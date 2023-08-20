@@ -27,6 +27,8 @@ CÓDIGO SIMCA: 104617020780
 
 4. Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
 
+5. ¿Por qué se dice que un protocolo es independiente de la tecnología? 
+
 6. Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
 
 7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
