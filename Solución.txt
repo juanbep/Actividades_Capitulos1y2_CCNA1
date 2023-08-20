@@ -11,7 +11,30 @@ R//
 
 2. Describir las características de las arquitecturas de red: tolerante a fallas,escalabilidad, calidad del servicio y seguridad. Mostrar sus respectivos ejemplos.
 
-R//
+R// Tolerante a fallas: Esta caracteristica hace referencia a la capacidad que tiene una red para recuperarse de los fallos, estos fallos pueden ser 
+en el hardware o en el software. Una red con esta caracteristica deberia poder recuperarse de manera rapida de este tipo de sucesos, una de las formas 
+mas destacadas para recuperarse rapidamente de estos eventos desafortunados es mediante los enlaces redundantes, esto consiste en que enves de tener un solo enlace 
+para comunicar dos o mas dispositivos, es mejor tener mas de un enlace, de esta manera disponemos de enlaces adicionales que se pueden usar en caso de un enlace o 
+dispositivo falle.    
+
+Escalabilidad: Esta caracteristica hace referencia a la capacidad que tiene una red para crecer en el tiempo sin degradar el rendimientos de los usuarios 
+existentes y/o causar disrupcion en toda la red. Como sabemos, en la actualidad la demanda de usuarios que necesitan conectarse a la red crece exponencialmente 
+y cada vez mas rapido, por esta razon es necesario garantizar que se pueda ampliar la capacidad de la red para atender a nuevos usuarios, una red que cuente con
+la caracteristica de escalabilidad deberia permitir su ampliacion sin que al hacerlo afecte a partes de la red que ya son funcionales y estan prestando un servicio. 
+
+Calidad del servicio: Esta caracteristica hace referencia a la calidad con la que llegan los servicios al usuario final a traves de la red. En la actualidad contamos con 
+diferentes tipos de servicios que se envian a traves de la red, como lo son el audio, el video en vivo, juegos en linea, etc. La calidad de estos servicios se
+puede medir con la capacidad de experimentar la misma presentación de audio y video como si estuviarimos en persona. Actualmente las redes no cuentan con la capacidad
+de transmitir estos diferentes tipos de servicios de manera simultanea sin experimentar problemas como congestion en el trafico de red o perdidad de paquetes. Por lo tanto,
+asegurar la QoS requiere de un grupo de técnicas para administrar la utilización de los recursos de red. Para mantener una buena calidad de servicio para las aplicaciones 
+que lo requieren, es necesario priorizar los tipos de paquetes de datos que deben enviarse a expensas de otros tipos de paquetes que puedan retrasarse o descartarse.  
+
+Seguridad: Esta caracteristica se ve aplicada a diferentes partes tangibles e intangibles que coformar una red, en sintexis, existen dos tipos de cuestiones de seguridad de la red
+que se deben tratar a fin de evitar serias consecuencias: seguridad de la infraestructura de la red y seguridad del contenido.  Asegurar la infraestructura de la red incluye la protección 
+física de los dispositivos que proporcionan conectividad de red y evitan el acceso no autorizado al software de administración que reside en ellos. La seguridad del contenido se refiere a 
+la protección de la información contenida en los paquetes que se transmiten en la red y la información almacenada en los dispositivos conectados a ésta. Actualmente existen muchas herramientas 
+que proporcionan seguridad a los datos que viajan en la red, evitando fallas de seguridad como los son el robo de información, la perdidad de paquetes, virus y diferentes software
+malicioso que tienen como fin corromper o dañar los paquetes, entre otros problemas de seguridad. 
 
 3. Investigar qué son las redes orientadas y no orientadas a la conexión.
 
