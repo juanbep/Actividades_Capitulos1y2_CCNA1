@@ -8,6 +8,12 @@ Preguntas de lectura: Capítulo 1
 1. Responda brevemente, ¿Qué son los datos? ¿Qué es una red de datos? ¿Qué es una red convergente?
 
 R//
+Los datos:	Es la información que se recopila, registra o almacena, y que pueden ser procesados o analizados para obtener conocimiento 
+		o tomar decisiones. Pueden ser numéricos, textuales, visuales u otro tipo de información.
+Redes de Datos: Es el intercambio información como caracteres, voz, flujos de video, texto y gráficos, a los diferentes tipos de dispositivos.
+Red Convergente: Es una red de datos que transporta múltiples servicios en una red, es decir hay muchos puntos de contacto y muchos dispositivos,
+		pero una sola infraestructura de red común.
+
 
 2. Describir las características de las arquitecturas de red: tolerante a fallas,escalabilidad, calidad del servicio y seguridad. Mostrar sus respectivos ejemplos.
 
@@ -39,6 +45,12 @@ malicioso que tienen como fin corromper o dañar los paquetes, entre otros probl
 3. Investigar qué son las redes orientadas y no orientadas a la conexión.
 
 R//
+Redes orientadas a la conexión: Garantiza la calidad y consistencia de los mensajes transmitidos ya que los recursos de las diferentes ubicaciones de conmutación están destinados a proporcionar 
+un número determinado de circuitos. El servicio puede cargar los usuarios de la red durante el período de tiempo en que la conexión se encuentra activa.
+
+Redes no orientadas a la conexión: Una red sin conexión conmutada por paquetes tiene las características necesarias para admitir una arquitectura de red resistente y tolerante a fallas. En una red 
+conmutada por paquetes no existe la necesidad de un circuito reservado y simple de extremo a extremo. Cualquier parte del mensaje puede enviarse a través de la red utilizando una ruta disponible. Los paquetes 
+que contienen las partes de los mensajes de diferentes orígenes pueden viajar por la red al mismo tiempo.
 
 4. Describa que es la calidad del servicio y responda: ¿Por qué importa la calidad del servicio en una red de datos?
 
@@ -56,6 +68,30 @@ Preguntas de lectura: Capítulo 2
 
 R//
 
+Estructura de una RED:
+Elementos de la Comunicación: Existen 3 elementos en común de cualquier comunicación las cuales son: 
+	1.Emisor u origen del mensaje.
+	2.Receptor o destino del mensaje.
+	3.El canal, el cual es el medio por el cual viaja el mensaje.
+Comunicación de Mensajes: Los datos son divididos en partes pequeñas y mas manejables para su transferencia realizando la denominada segmentación.
+	La segmentación permite la multiplexación el cual entrelaza diversas conversaciones separadas en la red.
+	La segmentación también permite aumentar la confiabilidad de las comunicaciones de red, permitiendo que las partes separadas de cada mensaje sigan diferentes recorridos a través de la red desde el origen hasta el destino.
+Componentes de la red: 
+	Los dispositivos y los medios son los elementos físicos o hardware de la red, como una computadora portátil o personal, un switch, o el cableado que se usa para conectar estos dispositivos. A veces, puede que algunos 
+	componentes no sean visibles. En el caso de los medios inalámbricos, los mensajes se transmiten a través del aire utilizando radio frecuencia invisible u ondas infrarrojas.
+	Los servicios y procesos son los programas de comunicación, denominados software, que se ejecutan en los dispositivos conectados a la red.
+Dispositivos finales y su rol en la red:
+	Los dispositivos de red con los que la gente está más familiarizada se denominan dispositivos finales. Estos dispositivos constituyen la interfaz entre la red humana y la red de comunicación subyacente.
+Dispositivos intermedios y su rol en la red:
+	Estos dispositivos conectan los hosts individuales a la red y pueden conectar varias redes individuales para formar una internetwork. Los siguientes son ejemplos de dispositivos de red intermediarios 
+	dispositivos de acceso a la red, de internetworking, servidores de comunicación y módems, y dispositivos de seguridad.
+Medios de red: Las redes modernas utilizan principalmente tres tipos de medios para interconectar los dispositivos y proporcionar la ruta por la cual pueden transmitirse los datos. Estos medios son:
+	• hilos metálicos dentro de los cables
+	• fibras de vidrio o plásticas (cable de fibra óptica)
+	• transmisión inalámbrica.
+Protocolos de Comunicación: Son reglas y normas que permiten que los dispositivos se comuniquen entre sí. Ejemplos incluyen TCP/IP para Internet y protocolos como HTTP, SMTP y FTP para servicios específicos.
+
+
 2. Comparar y contrastar los siguientes términos: RED, LAN, WAN, INTERNETWORK E INTERNET.
 
 R//
@@ -63,6 +99,15 @@ R//
 3. ¿Cuál es la diferencia entre INTERNETWORK E INTERNET?
 
 R//
+Diferencia entre INTERNETWORK E INTERNET: 
+Es una red que se forma al conectar múltiples redes individuales utilizando dispositivos de enrutamiento, como routers. Estas redes individuales pueden tener diferentes tecnologías y protocolos, pero se interconectan 
+para permitir la comunicación entre ellas. El término "internetwork" a menudo se usa para describir la estructura de la Internet en su conjunto, que es una gran red global formada por la interconexión de redes más
+pequeñas.En Internetwork algunas de estas redes interconectadas pertenecen a grandes organizaciones públicas o privadas, como agencias gubernamentales o empresas industriales, y están reservadas para su uso exclusivo 
+
+Por otro lado Internet se crea por la interconexión de redes que pertenecen a los Proveedores de servicios de Internet (ISP). Estas redes ISP se conectan entre 
+sí para proporcionar acceso a millones de usuarios en todo el mundo. Garantizar la comunicación efectiva a través de esta infraestructura diversa requiere 
+la aplicación de tecnologías y protocolos consistentes y reconocidos comúnmente, como también la cooperación de muchas agencias de administración de redes.
+
 
 4. Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
 
@@ -71,6 +116,8 @@ R//
 5. ¿Por qué se dice que un protocolo es independiente de la tecnología?
 
 R//
+Los protocolos especifican funcionalidad de red no la tecnología subyacente para admitir esta funcionalidad, es decir debido al uso de estándares en el desarrollo e implementación de protocolos, asegura que los productos
+de diferentes fabricantes puedan funcionar conjuntamente para lograr comunicaciones eficientes.
 
 6. Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
 
@@ -80,6 +127,7 @@ R//
 
 R//
 
+
 8. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
 
 R//
@@ -87,3 +135,17 @@ R//
 9. Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
 
 R//
+
+Capas del Modelo TCP/IP:
+•	Aplicación: Representa datos para el usuario mas el control de codificación y de dialogo.
+•	Transporte: Admite la comunicación entre distintos dispositivos de distintas redes.
+•	Internet Determina la mejor ruta a través de la red.
+•	Acceso a la red: Controla los dispositivos del hardware y los medios que forman la red.
+Capas del Modelo OSI:
+•	Aplicación: Proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana que unas rede de datos.
+•	Presentación: Proporciona una representación común datos transferidos entre los servicios de la capa de la aplicación.
+•	Sesión: Proporciona servicios a la capa de presentación para organizar su dialogo y administrar el intercambio de datos.
+•	Transporte: Define los servicios para segmentar, transferir y reensamblar los datos para las comunicaciones individuales entre dispositivos finales.
+•	Red: Proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales e identificados.
+•	Enlace de datos: Describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
+•	Física: Describen los medios mecánicos, eléctricos, funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de bits hacia y desde un dispositivo red.
