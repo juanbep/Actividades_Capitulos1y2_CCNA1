@@ -141,6 +141,10 @@ R//
 7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
 
 R//
+Función de los protocolos: Es establecer reglas predeterminadas para la comunicación, especificando las características de la conversación. Estos protocolos definen el formato o estructura del mensaje, el método por el cual el
+dispositivo comparten información sobre rutas con otras redes, como y cuando se pasan los mensajes de error y del sistema entre dispositivos y el inicio y el fin de la transferencia de datos.
+
+Proceso de encapsulamiento de los datos: Es el proceso en el que varios protocolos le agregan información en cada nivel  mientras los datos de la aplicación bajan al stack del protocolo y se transmiten por medio de la red.
 
 
 8. Describir la diferencia entre los modelos de protocolo y modelos de referencia.
