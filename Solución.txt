@@ -42,7 +42,13 @@ R//
 
 4. Describa que es la calidad del servicio y responda: ¿Por qué importa la calidad del servicio en una red de datos?
 
-R//
+R// La calidad del servicio o QoS en palabras simples se refiere a que los servicios que se transmiten a traves de la red lleguen al usuario con la mejor calidad posible y sin niguna perdidad 
+en la información o que esta sea inperceptible. Veamoslo con algunos ejemplos: cuando hacemos una llamada telefonica queremos que se escuche los mas claro posible, que no hayan interferencias, cortes
+o cosas por el estilo que impidan entender el mensaje clara y completamente, otro caso puede ser cuando hacemos una transaccion  y en nuestro dispositivo nos informa que la transaccion se realizo 
+con exito pero a la cuenta de destion nunca llego el dinero, o llego un valor diferente al que enviamos. De ese tipo de anomalias en la red se encarga la calidad del servicio. Esta es muy importante 
+porque como vimos en el ejemplo anterior de esta depende el exito de todos los movimientos de dinero que se hacen diaramente, y no solamente eso, tambien de llamadas o mensajes importantes de pedidos de 
+auxilio y que podrian perderse en la red o llegar a la persona equivocada, tambien sirve para estar al margen de las ultimas noticias y/o hechos que tiene un impacto en nuestra sociedad. Entre muchas cosas mas, 
+es por esto que es importante la calidad del servicio en la red.    
 
 Preguntas de lectura: Capítulo 2
 
