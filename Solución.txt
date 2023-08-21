@@ -119,7 +119,14 @@ la aplicación de tecnologías y protocolos consistentes y reconocidos comúnmen
 
 4. Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
 
-R//
+R//Tarjeta de Interfaz de Red (NIC): Es un componente de hardware en una computadora que permite la conexion a una red. Funciona como el "traductor" entre la computadora y la red, convirtiendo datos en señales que pueden 
+ser transmitidas a traves de un cable o de forma inalambrica.
+
+Puerto Fisico: Es un punto de conexion fisica en un dispositivo de red, como un enrutador o un conmutador. Puede ser un enchufe fisico en el que se conecta un cable de red. Cada puerto fisico se asigna a una NIC especifica
+en una computadora o dispositivo.
+
+Interfaz de Red: Es el punto de contacto logico o virtual que permite que una computadora o dispositivo se comunique en una red. Una NIC puede tener multiples interfaces de red virtuales, cada una con su propia configuracion de red.
+Estas interfaces permiten que un dispositivo se comunique en diferentes redes o segmentos de red sin necesidad de tener multiples tarjetas de red fisicas.
 
 5. ¿Por qué se dice que un protocolo es independiente de la tecnología?
 
