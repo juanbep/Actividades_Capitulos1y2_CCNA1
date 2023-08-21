@@ -116,6 +116,8 @@ R//
 5. ¿Por qué se dice que un protocolo es independiente de la tecnología?
 
 R//
+Los protocolos especifican funcionalidad de red no la tecnología subyacente para admitir esta funcionalidad, es decir debido al uso de estándares en el desarrollo e implementación de protocolos, asegura que los productos
+de diferentes fabricantes puedan funcionar conjuntamente para lograr comunicaciones eficientes.
 
 6. Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
 
