@@ -136,7 +136,8 @@ de diferentes fabricantes puedan funcionar conjuntamente para lograr comunicacio
 
 6. Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
 
-R//
+R//Una Unidad de Datos del Protocolo (PDU) es una unidad de informacion que se utiliza para transmitir datos a traves de una red. Es como un paquete de informacion que contiene los datos que se envian, junto con informacion de control que
+ayuda a la red a procesar y entregar esos datos correctamente. Un PDU es una especie de "paquete" que contiene datos y detalles sobre como manejarlos en la red.
 
 7. Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
 
