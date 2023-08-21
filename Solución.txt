@@ -68,6 +68,30 @@ Preguntas de lectura: Capítulo 2
 
 R//
 
+Estructura de una RED:
+Elementos de la Comunicación: Existen 3 elementos en común de cualquier comunicación las cuales son: 
+	1.Emisor u origen del mensaje.
+	2.Receptor o destino del mensaje.
+	3.El canal, el cual es el medio por el cual viaja el mensaje.
+Comunicación de Mensajes: Los datos son divididos en partes pequeñas y mas manejables para su transferencia realizando la denominada segmentación.
+	La segmentación permite la multiplexación el cual entrelaza diversas conversaciones separadas en la red.
+	La segmentación también permite aumentar la confiabilidad de las comunicaciones de red, permitiendo que las partes separadas de cada mensaje sigan diferentes recorridos a través de la red desde el origen hasta el destino.
+Componentes de la red: 
+	Los dispositivos y los medios son los elementos físicos o hardware de la red, como una computadora portátil o personal, un switch, o el cableado que se usa para conectar estos dispositivos. A veces, puede que algunos 
+	componentes no sean visibles. En el caso de los medios inalámbricos, los mensajes se transmiten a través del aire utilizando radio frecuencia invisible u ondas infrarrojas.
+	Los servicios y procesos son los programas de comunicación, denominados software, que se ejecutan en los dispositivos conectados a la red.
+Dispositivos finales y su rol en la red:
+	Los dispositivos de red con los que la gente está más familiarizada se denominan dispositivos finales. Estos dispositivos constituyen la interfaz entre la red humana y la red de comunicación subyacente.
+Dispositivos intermedios y su rol en la red:
+	Estos dispositivos conectan los hosts individuales a la red y pueden conectar varias redes individuales para formar una internetwork. Los siguientes son ejemplos de dispositivos de red intermediarios 
+	dispositivos de acceso a la red, de internetworking, servidores de comunicación y módems, y dispositivos de seguridad.
+Medios de red: Las redes modernas utilizan principalmente tres tipos de medios para interconectar los dispositivos y proporcionar la ruta por la cual pueden transmitirse los datos. Estos medios son:
+	• hilos metálicos dentro de los cables
+	• fibras de vidrio o plásticas (cable de fibra óptica)
+	• transmisión inalámbrica.
+Protocolos de Comunicación: Son reglas y normas que permiten que los dispositivos se comuniquen entre sí. Ejemplos incluyen TCP/IP para Internet y protocolos como HTTP, SMTP y FTP para servicios específicos.
+
+
 2. Comparar y contrastar los siguientes términos: RED, LAN, WAN, INTERNETWORK E INTERNET.
 
 R//
