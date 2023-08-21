@@ -45,6 +45,12 @@ malicioso que tienen como fin corromper o dañar los paquetes, entre otros probl
 3. Investigar qué son las redes orientadas y no orientadas a la conexión.
 
 R//
+Redes orientadas a la conexión: Garantiza la calidad y consistencia de los mensajes transmitidos ya que los recursos de las diferentes ubicaciones de conmutación están destinados a proporcionar 
+un número determinado de circuitos. El servicio puede cargar los usuarios de la red durante el período de tiempo en que la conexión se encuentra activa.
+
+Redes no orientadas a la conexión: Una red sin conexión conmutada por paquetes tiene las características necesarias para admitir una arquitectura de red resistente y tolerante a fallas. En una red 
+conmutada por paquetes no existe la necesidad de un circuito reservado y simple de extremo a extremo. Cualquier parte del mensaje puede enviarse a través de la red utilizando una ruta disponible. Los paquetes 
+que contienen las partes de los mensajes de diferentes orígenes pueden viajar por la red al mismo tiempo.
 
 4. Describa que es la calidad del servicio y responda: ¿Por qué importa la calidad del servicio en una red de datos?
 
